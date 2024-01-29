@@ -1,0 +1,15 @@
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\bin\Debug\net8.0\GiraffeTutorial.exe
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\bin\Debug\net8.0\GiraffeTutorial.deps.json
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\bin\Debug\net8.0\GiraffeTutorial.runtimeconfig.json
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\bin\Debug\net8.0\GiraffeTutorial.dll
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\bin\Debug\net8.0\GiraffeTutorial.pdb
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\obj\Debug\net8.0\GiraffeTutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\obj\Debug\net8.0\GiraffeTutorial.AssemblyInfoInputs.cache
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\obj\Debug\net8.0\GiraffeTutorial.AssemblyInfo.cs
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\obj\Debug\net8.0\GiraffeTutorial.csproj.CoreCompileInputs.cache
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\obj\Debug\net8.0\GiraffeTutorial.sourcelink.json
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\obj\Debug\net8.0\GiraffeTutorial.dll
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\obj\Debug\net8.0\refint\GiraffeTutorial.dll
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\obj\Debug\net8.0\GiraffeTutorial.pdb
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\obj\Debug\net8.0\GiraffeTutorial.genruntimeconfig.cache
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GiraffeTutorial\obj\Debug\net8.0\ref\GiraffeTutorial.dll
