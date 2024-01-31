@@ -12,7 +12,7 @@ namespace GiraffeTutorial
     {
         static void Main(string[] args)
         {
-
+            /*
             // Write to console
             Console.WriteLine("   /|");
             Console.WriteLine("  / |");
@@ -48,7 +48,11 @@ namespace GiraffeTutorial
             // Boolean
             bool isMale = true;
             bool isFemale = false;
+            */
 
+            // Working With Strings
+
+            Console.WriteLine("Razvan\nToma");
         }
     }
 }
