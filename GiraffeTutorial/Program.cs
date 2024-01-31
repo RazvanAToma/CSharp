@@ -12,9 +12,12 @@ namespace GiraffeTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("a");
-            Console.WriteLine("b");
-            Console.WriteLine("c");
-            Console.WriteLine("d");
+            Console.WriteLine("   /|");
+            Console.WriteLine("  / |");
+            Console.WriteLine(" /  |");
+            Console.WriteLine("/___|")
+
+
         }
     }
+}
