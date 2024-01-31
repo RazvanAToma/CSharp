@@ -12,8 +12,9 @@ namespace GiraffeTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hello, Moon!");
+            Console.WriteLine("a");
+            Console.WriteLine("b");
+            Console.WriteLine("c");
+            Console.WriteLine("d");
         }
     }
-}
