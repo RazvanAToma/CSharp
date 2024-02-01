@@ -38,7 +38,7 @@ namespace GiraffeTutorial
 
             // Numbers
             int age = 30; // Whole numbers
-            // Decimal types: float (precise), double (more precise), decimal (most precise / exact)
+                          // Decimal types: float (precise), double (more precise), decimal (most precise / exact)
             double gpa = 3.3;
 
             // Boolean
@@ -48,9 +48,7 @@ namespace GiraffeTutorial
 
             // Working With Strings
 
-            string hjelp = "Hva er galt";
-
-            Console.WriteLine(hjelp);
+            Console.WriteLine("test");
         }
     }
 }
