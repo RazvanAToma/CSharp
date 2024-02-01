@@ -12,7 +12,6 @@ namespace GiraffeTutorial
     {
         static void Main(string[] args)
         {
-            /*
             // Write to console
             Console.WriteLine("   /|");
             Console.WriteLine("  / |");
@@ -20,17 +19,14 @@ namespace GiraffeTutorial
             Console.WriteLine("/___|");
 
 
-
             // Variables
             string characterName = "George";
-            int characterAge;
-            characterAge = 35;
+            int characterAge = 35;
 
             Console.WriteLine($"There once was a man named {characterName}");
             Console.WriteLine($"He was {characterAge} years old");
             Console.WriteLine($"He really liked the name {characterName}");
             Console.WriteLine($"But didn't like being {characterAge}");
-
 
 
             // Data Types
@@ -48,12 +44,13 @@ namespace GiraffeTutorial
             // Boolean
             bool isMale = true;
             bool isFemale = false;
-            */
+
 
             // Working With Strings
 
-            Console.WriteLine("Razvan\nToma");
-            Console.WriteLine("Razvan\"Toma\"")
+            string hjelp = "Hva er galt";
+
+            Console.WriteLine(hjelp);
         }
     }
 }

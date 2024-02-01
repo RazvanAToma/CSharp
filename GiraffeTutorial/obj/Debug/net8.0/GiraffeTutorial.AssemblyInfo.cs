@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GiraffeTutorial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cc9bf6f6f7a8bf9fd729b72dcdbc598cb6f9f6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50e18c5fd47b52d271f1c1be6a32f4bac72ba8cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("GiraffeTutorial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GiraffeTutorial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
