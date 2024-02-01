@@ -53,6 +53,7 @@ namespace GiraffeTutorial
             // Working With Strings
 
             Console.WriteLine("Razvan\nToma");
+            Console.WriteLine("Razvan\"Toma\"")
         }
     }
 }
