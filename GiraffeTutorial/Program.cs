@@ -112,7 +112,22 @@ namespace GiraffeTutorial
             Console.WriteLine($"Wow! You have {cars} cars!?");
             */
 
-            print("Hello");
+            /*
+            List<string> yourCars = new List<string>();
+
+            Console.WriteLine("What car do you have?");
+
+            string userCar = Console.ReadLine();
+
+            yourCars.Add(userCar);
+
+            foreach (string car in yourCars)
+            {
+                Console.WriteLine($"You drive a {car}");
+            }
+            */
+
+
         }
     }
 }
