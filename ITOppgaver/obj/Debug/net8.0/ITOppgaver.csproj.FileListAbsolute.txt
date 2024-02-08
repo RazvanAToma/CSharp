@@ -1,0 +1,15 @@
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\bin\Debug\net8.0\ITOppgaver.exe
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\bin\Debug\net8.0\ITOppgaver.deps.json
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\bin\Debug\net8.0\ITOppgaver.runtimeconfig.json
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\bin\Debug\net8.0\ITOppgaver.dll
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\bin\Debug\net8.0\ITOppgaver.pdb
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\obj\Debug\net8.0\ITOppgaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\obj\Debug\net8.0\ITOppgaver.AssemblyInfoInputs.cache
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\obj\Debug\net8.0\ITOppgaver.AssemblyInfo.cs
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\obj\Debug\net8.0\ITOppgaver.csproj.CoreCompileInputs.cache
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\obj\Debug\net8.0\ITOppgaver.sourcelink.json
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\obj\Debug\net8.0\ITOppgaver.dll
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\obj\Debug\net8.0\refint\ITOppgaver.dll
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\obj\Debug\net8.0\ITOppgaver.pdb
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\obj\Debug\net8.0\ITOppgaver.genruntimeconfig.cache
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\ITOppgaver\obj\Debug\net8.0\ref\ITOppgaver.dll
