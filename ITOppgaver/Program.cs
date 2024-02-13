@@ -2,6 +2,7 @@
 
 
 using System;
+using System.Reflection.Metadata;
 
 
 static double arealSirkel(int radius)
@@ -90,4 +91,44 @@ static bool inRange(int tall, int minRange, int maxRange)
     return false;
 }
 
-Console.WriteLine(inRange(7, 5, 10));
+//Console.WriteLine(inRange(7, 5, 10));
+
+
+
+
+
+static double vectorLength(int x, int y)
+{
+    double lengde = Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2));
+
+    return lengde;
+}
+
+bool userContinue = true;
+
+while (userContinue)
+{
+    Console.WriteLine("Vektor x:");
+    int x = int.Parse(Console.ReadLine());
+
+    Console.WriteLine("Vektor y:");
+    int y = int.Parse(Console.ReadLine());
+
+    Console.WriteLine(vectorLength(x, y));
+
+
+    Console.WriteLine("\nContinue?");
+    string userContinueString = Console.ReadLine();
+
+    if (userContinueString == "y")
+    {
+        userContinue = true;
+    }
+    else if (userContinueString == "n")
+    {
+        userContinue = false;
+    }
+
+}
+
+
