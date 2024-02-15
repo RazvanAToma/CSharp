@@ -2,6 +2,7 @@
 
 
 using System;
+using System.Collections;
 using System.Reflection.Metadata;
 
 
@@ -96,7 +97,6 @@ static bool inRange(int tall, int minRange, int maxRange)
 
 
 
-
 static double vectorLength(int x, int y)
 {
     double lengde = Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2));
@@ -104,7 +104,7 @@ static double vectorLength(int x, int y)
     return lengde;
 }
 
-bool userContinue = true;
+bool userContinue = false;
 
 while (userContinue)
 {
@@ -132,3 +132,43 @@ while (userContinue)
 }
 
 
+
+static void terningKast(int terninger, int sider)
+{
+    Random random = new Random();
+
+    for (int kast = 0; kast != terninger; kast += 1)
+    {
+        int randomHeltall = random.Next(1, sider + 1);
+
+        Console.WriteLine($"Du fikk {randomHeltall}");
+    }
+}
+
+//terningKast(5, 6);
+
+
+static void yahtzee()
+{
+    List<int> results = new List<int>();
+
+    results.Add(5);
+    results.Add(5);
+    results.Add(5);
+    results.Add(5);
+
+    foreach (int result in results)
+    {
+        if (results[0] != result)
+        {
+            Console.WriteLine("Ingen yahtzee");
+            break;
+        }
+        else if (results[0] == result)
+        {
+            Console.WriteLine("Yahtzee");
+        }
+    }
+}
+
+yahtzee();
