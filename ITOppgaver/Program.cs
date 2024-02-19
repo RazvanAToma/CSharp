@@ -6,6 +6,7 @@ using System.Collections;
 using System.Reflection.Metadata;
 
 
+
 static double arealSirkel(int radius)
 {
     double areal = Math.PI * Math.Pow(radius, 2);
@@ -43,7 +44,6 @@ static string gammelhet(string navn, int alder)
         return $"Hei {navn}, du er midt i mellom...";
     }
 }
-
 
 //Console.WriteLine("Hva heter du?");
 //string navn = Console.ReadLine();
@@ -93,7 +93,6 @@ static bool inRange(int tall, int minRange, int maxRange)
 }
 
 //Console.WriteLine(inRange(7, 5, 10));
-
 
 
 
@@ -148,6 +147,7 @@ static void terningKast(int terninger, int sider)
 //terningKast(5, 6);
 
 
+
 static void yahtzee()
 {
     List<int> results = new List<int>();
@@ -171,4 +171,123 @@ static void yahtzee()
     }
 }
 
-yahtzee();
+//yahtzee();
+
+
+
+// Oppgaver Kjeld C#
+
+// Oppgave 1
+static double arealKvadrat(int side)
+{
+    double kvadratAreal = Math.Pow(side, 2);
+    return kvadratAreal;
+}
+
+Console.WriteLine(arealKvadrat(4));
+
+// Oppgave 2
+static double arealSirkelKjeld(double radius)
+{
+    double sirkelAreal = Math.PI * Math.Pow(radius, 2);
+    return sirkelAreal;
+}
+
+double radius = 7.97886;
+
+Console.WriteLine($"Arealet til en sirkel med radius {radius} er {arealSirkelKjeld(radius)}");
+
+
+// Oppgave 3
+static string place(string city, string country)
+{
+    return $"{city} er en by i {country}";
+}
+
+Console.WriteLine(place("Oslo", "Norge"));
+
+
+// Oppgave 4
+static int smallest(int num1, int num2)
+{
+    if (num1 > num2)
+    {
+        return num2;
+    }
+
+    return num1;
+}
+
+Console.WriteLine(smallest(5, 10));
+
+
+// Oppgave 5
+static void topbot(string name)
+{
+    Console.Write("+");
+
+    for (int i = 0; i < name.Length; i += 1)
+    {
+        Console.Write("-");
+    }
+
+    Console.WriteLine("+");
+}
+
+static void nametag(string name)
+{
+    topbot(name);
+
+    Console.WriteLine($"|{name}|");
+
+    topbot(name);
+}
+
+//nametag("Alexander");
+
+
+
+// Funksjoner med returverdier
+
+// Oppgave 1
+static int smallestOfThree(int num1, int num2, int num3)
+{
+    if (num1 < num2 && num1 < num3)
+    {
+        return num1;
+    }
+    else if (num2 < num1 && num2 < num3)
+    {
+        return num2;
+    }
+    else
+    {
+        return num3;
+    }
+}
+
+Console.WriteLine(smallestOfThree(9, 7, 1));
+
+
+// Oppgave 2
+static void overflateAreal(string geometriskFigur)
+{
+    if (geometriskFigur == "kule")
+    {
+        Console.WriteLine("Kule");
+    }
+    else if (geometriskFigur == "sylinder")
+    {
+        Console.WriteLine("Sylinder");
+    }
+    else if (geometriskFigur == "kjegle")
+    {
+        Console.WriteLine("Kjegle");
+    }
+    else
+    {
+        Console.WriteLine("Ukjent geometrisk figur");
+    }
+}
+
+overflateAreal("");
