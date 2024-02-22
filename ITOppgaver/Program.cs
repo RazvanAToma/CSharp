@@ -184,7 +184,7 @@ static double arealKvadrat(int side)
     return kvadratAreal;
 }
 
-Console.WriteLine(arealKvadrat(4));
+//Console.WriteLine(arealKvadrat(4));
 
 // Oppgave 2
 static double arealSirkelKjeld(double radius)
@@ -195,7 +195,7 @@ static double arealSirkelKjeld(double radius)
 
 double radius = 7.97886;
 
-Console.WriteLine($"Arealet til en sirkel med radius {radius} er {arealSirkelKjeld(radius)}");
+//Console.WriteLine($"Arealet til en sirkel med radius {radius} er {arealSirkelKjeld(radius)}");
 
 
 // Oppgave 3
@@ -204,7 +204,7 @@ static string place(string city, string country)
     return $"{city} er en by i {country}";
 }
 
-Console.WriteLine(place("Oslo", "Norge"));
+//Console.WriteLine(place("Oslo", "Norge"));
 
 
 // Oppgave 4
@@ -218,7 +218,7 @@ static int smallest(int num1, int num2)
     return num1;
 }
 
-Console.WriteLine(smallest(5, 10));
+//Console.WriteLine(smallest(5, 10));
 
 
 // Oppgave 5
@@ -266,7 +266,7 @@ static int smallestOfThree(int num1, int num2, int num3)
     }
 }
 
-Console.WriteLine(smallestOfThree(9, 7, 1));
+//Console.WriteLine(smallestOfThree(9, 7, 1));
 
 
 // Oppgave 2
@@ -290,4 +290,60 @@ static void overflateAreal(string geometriskFigur)
     }
 }
 
-overflateAreal("");
+//overflateAreal("");
+
+// Oppgave 3
+
+static int amount(char character, string text)
+{
+    int x = 0;
+    
+    foreach (char textChar in text)
+    {
+        if (textChar == character)
+        {
+            x += 1;
+        }
+    }
+
+    return x;
+
+}
+
+string myText = "Jeg heter Jens og jeg er ikke hvit";
+
+//Console.WriteLine($"Det er {amount('e', myText)} forekomster av tegnet");
+
+
+// Oppgave 4
+
+static int wordCount(string text)
+{
+    int count = 1;
+
+    foreach (char textChar in text)
+    {
+        if (textChar == ' ')
+        {
+            count += 1;
+        }
+    }
+
+    return count;
+}
+
+//Console.WriteLine($"Det er {wordCount(myText)} ord i \"{myText}\"");
+
+
+// Oppgave 5
+
+static bool threeValuesEqual(int num1, int num2, int num3)
+{
+    if (num1 == num2 && num1 == num3)
+    {
+        return true;
+    }
+    return false;
+}
+
+Console.WriteLine(threeValuesEqual(5, 4, 5));
