@@ -346,4 +346,44 @@ static bool threeValuesEqual(int num1, int num2, int num3)
     return false;
 }
 
-Console.WriteLine(threeValuesEqual(5, 4, 5));
+//Console.WriteLine(threeValuesEqual(5, 4, 5));
+
+
+
+
+
+// Arrayer og noen forskjellige typer lister
+
+// Oppgave 1
+
+int[] listeAvTall = new int[5];
+
+listeAvTall[0] = 1;
+listeAvTall[1] = 2;
+listeAvTall[2] = 3;
+listeAvTall[3] = 4;
+listeAvTall[4] = 5;
+
+foreach (int number in listeAvTall)
+{
+    //Console.WriteLine(number);
+}
+
+
+// Oppgave 2
+
+int[] firstFifty = new int[50];
+
+int curNum = 1;
+
+for (int i = 0; i < 50; i += 1)
+{
+    firstFifty[i] = curNum;
+
+    curNum += 1;
+}
+
+foreach (int number in firstFifty)
+{
+    Console.WriteLine(number);
+}
