@@ -372,18 +372,61 @@ foreach (int number in listeAvTall)
 
 // Oppgave 2
 
-int[] firstFifty = new int[50];
+//int[] firstFifty = new int[50];
 
-int curNum = 1;
+//int curNum = 1;
 
-for (int i = 0; i < 50; i += 1)
-{
-    firstFifty[i] = curNum;
+//for (int i = 0; i < 50; i += 1)
+//{
+//    firstFifty[i] = curNum;
 
-    curNum += 1;
-}
+//    curNum += 1;
+//}
 
-foreach (int number in firstFifty)
-{
-    Console.WriteLine(number);
-}
+//foreach (int number in firstFifty)
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+// Oppgave 3
+
+//int[] odd100 = new int[100];
+
+//int currentIndex = 0;
+
+//for(int i = 1; i < 200; i+= 2)
+//{
+//    odd100[currentIndex] = i;
+//    currentIndex += 1;
+//}
+
+//foreach(int number in odd100)
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+
+// Oppgave 4
+
+//int[] first20Squared = new int[20];
+
+//int currentIndex = 0;
+
+//for(int i = 1; i < 21; i += 1)
+//{
+//    double numDouble = Math.Pow(i, 2);
+//    int numInt = Convert.ToInt32(numDouble);
+
+//    first20Squared[currentIndex] = numInt;
+//    currentIndex += 1;
+//}
+
+//foreach(int number in first20Squared)
+//{
+//    Console.WriteLine(number);
+//}
+
