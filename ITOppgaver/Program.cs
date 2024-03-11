@@ -430,3 +430,44 @@ foreach (int number in listeAvTall)
 //    Console.WriteLine(number);
 //}
 
+
+
+
+// Oppgave 5
+
+//int[] first15Cubed = new int[15];
+
+//int curIndex = 0;
+
+//for (int i = 1; i < first15Cubed.Length + 1; i += 1)
+//{
+//    double doubleNum = Math.Pow(i, 3);
+//    int intNum = Convert.ToInt32(doubleNum);
+
+//    first15Cubed[curIndex] = intNum;
+//    curIndex += 1;
+//}
+
+//foreach(int number in first15Cubed)
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+
+// Oppgave 6
+
+string[] userStr = new string[5];
+
+for(int i = 0; i < userStr.Length; i += 1)
+{
+    Console.Write("Skriv: ");
+    string userInput = Console.ReadLine();
+    userStr[i] = userInput;
+}
+
+foreach(string str in userStr)
+{
+    Console.WriteLine(str);
+}

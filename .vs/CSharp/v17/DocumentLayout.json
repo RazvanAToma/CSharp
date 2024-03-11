@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\SortingAlg\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SortingAlg\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\ITOppgaver\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITOppgaver\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\SortingAlg\\Program.cs",
-              "RelativeDocumentMoniker": "SortingAlg\\Program.cs",
-              "ToolTip": "C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\SortingAlg\\Program.cs",
-              "RelativeToolTip": "SortingAlg\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAACsAAAAhAAAA",
+              "DocumentMoniker": "C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\ITOppgaver\\Program.cs",
+              "RelativeDocumentMoniker": "ITOppgaver\\Program.cs",
+              "ToolTip": "C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\ITOppgaver\\Program.cs",
+              "RelativeToolTip": "ITOppgaver\\Program.cs",
+              "ViewState": "AQIAAL4BAAAAAAAAAAAuwNQBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T09:03:50.807Z",
+              "WhenOpened": "2024-03-11T09:11:05.068Z",
               "EditorCaption": ""
             }
           ]
