@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections;
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection.Metadata;
 
 
@@ -458,16 +459,57 @@ foreach (int number in listeAvTall)
 
 // Oppgave 6
 
-string[] userStr = new string[5];
+//string[] userStr = new string[5];
 
-for(int i = 0; i < userStr.Length; i += 1)
+//for(int i = 0; i < userStr.Length; i += 1)
+//{
+//    Console.Write("Skriv: ");
+//    string userInput = Console.ReadLine();
+//    userStr[i] = userInput;
+//}
+
+//foreach(string str in userStr)
+//{
+//    Console.WriteLine(str);
+//}
+
+
+
+// Oppgave 7
+
+//int[] random50nums = new int[50];
+
+//Random random = new Random();
+
+//for (int i = 0; i < random50nums.Length; i += 1)
+//{
+//    random50nums[i] = random.Next(100);
+//}
+
+//foreach(int number in random50nums)
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+// Oppgave 8
+
+int[] numList = new int[3];
+numList[0] = 5;
+numList[1] = 10;
+numList[2] = 0;
+
+double average(System.Int32[] list)
 {
-    Console.Write("Skriv: ");
-    string userInput = Console.ReadLine();
-    userStr[i] = userInput;
+    int sum = 0;
+
+    foreach(int number in list)
+    {
+        sum += number;
+    }
+
+    return sum / list.Length;
 }
 
-foreach(string str in userStr)
-{
-    Console.WriteLine(str);
-}
+Console.WriteLine(average(numList));

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ITOppgaver",
+    "\\SortingAlg"
   ],
-  "SelectedNode": "\\SortingAlg",
+  "SelectedNode": "\\SortingAlg\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
