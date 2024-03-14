@@ -21,7 +21,7 @@ for (int a = 1; a < reps; a += 1)
         {
             sum += 1;
         }
-    }s
+    }
 }
 
 sw.Stop();
