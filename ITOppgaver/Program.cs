@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections;
+using System.Collections.Immutable;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection.Metadata;
 
@@ -357,18 +358,18 @@ static bool threeValuesEqual(int num1, int num2, int num3)
 
 // Oppgave 1
 
-int[] listeAvTall = new int[5];
+//int[] listeAvTall = new int[5];
 
-listeAvTall[0] = 1;
-listeAvTall[1] = 2;
-listeAvTall[2] = 3;
-listeAvTall[3] = 4;
-listeAvTall[4] = 5;
+//listeAvTall[0] = 1;
+//listeAvTall[1] = 2;
+//listeAvTall[2] = 3;
+//listeAvTall[3] = 4;
+//listeAvTall[4] = 5;
 
-foreach (int number in listeAvTall)
-{
-    //Console.WriteLine(number);
-}
+//foreach (int number in listeAvTall)
+//{
+//Console.WriteLine(number);
+//}
 
 
 // Oppgave 2
@@ -495,21 +496,356 @@ foreach (int number in listeAvTall)
 
 // Oppgave 8
 
-int[] numList = new int[3];
-numList[0] = 5;
-numList[1] = 10;
-numList[2] = 0;
+//int[] numList = new int[3];
+//numList[0] = 5;
+//numList[1] = 10;
+//numList[2] = 0;
 
-double average(System.Int32[] list)
-{
-    int sum = 0;
+//double average(System.Int32[] list)
+//{
+//    int sum = 0;
 
-    foreach(int number in list)
-    {
-        sum += number;
-    }
+//    foreach(int number in list)
+//    {
+//        sum += number;
+//    }
 
-    return sum / list.Length;
-}
+//    return sum / list.Length;
 
-Console.WriteLine(average(numList));
+
+//Console.WriteLine(average(numList));
+
+
+
+// Oppgave 9
+
+//static System.Int32[] sortList(System.Int32[] list)
+//{
+//    Array.Sort(list);
+//    return list;
+//}
+
+//foreach(int number in sortList(numList))
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+// Oppgave 10
+
+//Console.WriteLine(numList.Max());
+//Console.WriteLine(numList.Min());
+//Console.WriteLine(numList.Sum());
+
+
+
+// Oppgave 11
+
+//static int returnMin(System.Int32[] list)
+//{
+//    return list.Min();
+//}
+
+//Console.WriteLine(returnMin(numList));
+
+
+
+//// Oppgave 12
+
+//static int returnMax(System.Int32[] list)
+//{
+//    return list.Max();
+//}
+
+//Console.WriteLine(returnMax(numList));
+
+
+
+
+// Lister (list)
+// Teori
+
+//List<string> fisker = new List<string>();
+
+//fisker.Add("Makrell");
+//fisker.Add("Laks");
+//fisker.Add("Orret");
+
+//foreach(string fisk in fisker)
+//{
+//    Console.WriteLine(fisk);
+//}
+
+
+//List<int> tallListe = new List<int>();
+
+//for (int i = 0; i < 100; i += 1)
+//{
+//    tallListe.Add(i);
+//}
+
+//foreach(int tall in tallListe)
+//{
+//    Console.WriteLine(tall);
+//}
+
+
+
+// Oppgaver
+
+// Oppgave 1
+
+//List<int> oneToFive = new List<int>();
+
+//for (int i = 1; i < 6; i += 1)
+//{
+//    oneToFive.Add(i);
+//}
+
+//foreach (int i in oneToFive)
+//{
+//    Console.WriteLine(i);
+//}
+
+
+
+// Oppgave 2
+
+//List<int> oneToFifty = new List<int>();
+
+//for (int i = 1; i < 51; i += 1)
+//{
+//    oneToFifty.Add(i);
+//}
+
+//foreach (int number in oneToFifty)
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+// Oppgave 3
+
+//List<int> first100Odd = new List<int>();
+
+//for (int i = 1; i <= 200; i += 2)
+//{
+//    first100Odd.Add(i);
+//}
+
+//foreach (int number in first100Odd)
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+// Oppgave 4
+
+//List<double> first20Squared = new List<double>();
+
+//for (int i = 1; i <= 20; i += 1)
+//{
+//    first20Squared.Add(Math.Pow(i, 2));
+//}
+
+//foreach (double number in first20Squared)
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+// Oppgave 5
+
+//List<double> first15Cubed = new List<double>();
+
+//for (int i = 1; i <= 15; i += 1)
+//{
+//    first15Cubed.Add(Math.Pow(i, 3));
+//}
+
+//foreach (double number in first15Cubed)
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+// Oppgave 6
+
+//List<int> first10Int = new List<int>();
+
+//for (int i = 1; i <= 10; i += 1)
+//{
+//    first10Int.Add(i);
+//}
+
+//foreach (int number in first10Int)
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+// Oppgave 7
+
+//List<string> favFruit = new List<string>();
+
+//favFruit.Add("Eple");
+//favFruit.Add("Banan");
+//favFruit.Add("Vannemelon");
+//favFruit.Add("Druer");
+//favFruit.Add("Fersken");
+
+//foreach (string fruit in favFruit)
+//{
+//    Console.WriteLine(fruit);
+//}
+
+
+
+// Oppgave 8
+
+//static double returnAvg(List<int> list)
+//{
+//    return (list.Sum() / list.Count());
+//}
+
+//List<int> numberList = new List<int>();
+//numberList.Add(0);
+//numberList.Add(5);
+//numberList.Add(10);
+
+//Console.WriteLine(returnAvg(numberList));
+
+
+
+//Oppgave 9
+
+//List<char> first10Letters = new List<char>();
+
+//first10Letters.Add('a');
+//first10Letters.Add('b');
+//first10Letters.Add('c');
+//first10Letters.Add('d');
+//first10Letters.Add('e');
+//first10Letters.Add('f');
+//first10Letters.Add('g');
+//first10Letters.Add('h');
+//first10Letters.Add('i');
+//first10Letters.Add('j');
+
+//foreach (char letter in first10Letters)
+//{
+//    Console.WriteLine(letter);
+//}
+
+
+
+// Oppgave 10
+
+//List<int> userNums = new List<int>();
+
+//for (int i = 0; i < 5; i += 1)
+//{
+//    Console.Write($"Num {i}:");
+//    int num = int.Parse(Console.ReadLine());
+
+//    userNums.Add(num);
+//}
+
+//foreach (int num in userNums)
+//{
+//    Console.WriteLine(num);
+//}
+
+
+
+// Oppgave 11
+
+//Random rnd = new Random();
+
+//List<double> random8Nums = new List<double>();
+
+//for (int i = 0; i < 8; i += 1)
+//{
+//    random8Nums.Add(rnd.NextDouble());
+//}
+
+//foreach (double rndNum in random8Nums)
+//{
+//    Console.WriteLine(rndNum);
+//}
+
+
+
+// Oppgave 12
+
+//List<int> oneToFive = new List<int>();
+//oneToFive.Add(1);
+//oneToFive.Add(2);
+//oneToFive.Add(3);
+//oneToFive.Add(4);
+//oneToFive.Add(5);
+
+//List<int> oneToTen = new List<int>();
+//oneToFive.Add(6);
+//oneToFive.Add(7);
+//oneToFive.Add(8);
+//oneToFive.Add(9);
+//oneToFive.Add(10);
+
+
+//static List<int> combineLists(List<int> list1, List<int> list2)
+//{
+//    List<int> combinedList = new List<int>();
+
+//    foreach (int number in list1) {combinedList.Add(number);}
+
+//    foreach (int number in list2) {combinedList.Add(number);}
+
+//    return combinedList;
+//}
+
+//foreach (int num in combineLists(oneToFive, oneToTen))
+//{
+//    Console.WriteLine(num);
+//}
+
+
+
+// Oppgave 13
+
+//List<string> countries = new List<string>();
+//countries.Add("Norway");
+//countries.Add("Germany");
+//countries.Add("Italy");
+//countries.Add("Romania");
+//countries.Add("Russia");
+//countries.Add("France");
+//countries.Add("Spain");
+//countries.Add("Portugal");
+//countries.Add("Hungary");
+//countries.Add("Switzerland");
+
+
+//int findIndexOf(string countryName)
+//{
+//    return countries.IndexOf(countryName);
+//}
+
+
+//Console.WriteLine("What country are you looking for?");
+//string country = Console.ReadLine();
+
+//if (countries.Contains(country))
+//{
+//    Console.WriteLine($"{country} has the index of: {findIndexOf(country)}");
+//}
+//else
+//{
+//    Console.WriteLine($"{country} is not in list...");
+//}

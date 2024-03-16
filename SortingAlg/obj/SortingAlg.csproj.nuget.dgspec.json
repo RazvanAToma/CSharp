@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\razva\\Source\\Repos\\RazvanAToma\\CSharp\\SortingAlg\\SortingAlg.csproj": {}
+    "C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\SortingAlg\\SortingAlg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\razva\\Source\\Repos\\RazvanAToma\\CSharp\\SortingAlg\\SortingAlg.csproj": {
+    "C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\SortingAlg\\SortingAlg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\razva\\Source\\Repos\\RazvanAToma\\CSharp\\SortingAlg\\SortingAlg.csproj",
+        "projectUniqueName": "C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\SortingAlg\\SortingAlg.csproj",
         "projectName": "SortingAlg",
-        "projectPath": "C:\\Users\\razva\\Source\\Repos\\RazvanAToma\\CSharp\\SortingAlg\\SortingAlg.csproj",
+        "projectPath": "C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\SortingAlg\\SortingAlg.csproj",
         "packagesPath": "C:\\Users\\razva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\razva\\Source\\Repos\\RazvanAToma\\CSharp\\SortingAlg\\obj\\",
+        "outputPath": "C:\\Users\\razva\\source\\repos\\RazvanAToma\\CSharp\\SortingAlg\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\razva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

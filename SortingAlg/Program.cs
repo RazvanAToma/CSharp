@@ -11,7 +11,7 @@ sw.Start();
 
 int sum = 0;
 
-int reps = 10000;
+int reps = 2000;
 
 for (int a = 1; a < reps; a += 1)
 {
