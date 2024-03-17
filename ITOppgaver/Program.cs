@@ -849,3 +849,111 @@ static bool threeValuesEqual(int num1, int num2, int num3)
 //{
 //    Console.WriteLine($"{country} is not in list...");
 //}
+
+
+// Dictionary / Ordboker / Hashtables
+
+// Teori
+//Dictionary<string, string> keyValuePair = new Dictionary<string, string>();
+//keyValuePair.Add("Razvan", "Toma");
+//keyValuePair.Add("Kjeld", "Berg");
+
+//Console.WriteLine($"Etternavnet til Razvan er {keyValuePair["Razvan"]}");
+
+//Dictionary<string, int> keyValuePair1 = new Dictionary<string, int>();
+//keyValuePair1.Add("Razvan", 2006);
+//keyValuePair1.Add("Kjeld", 1983);
+
+//foreach (KeyValuePair<string, string> entry in keyValuePair)
+//{
+//    Console.WriteLine($"Navn: {entry.Key}\nEtternavn: {entry.Value}");
+//}
+
+//foreach (KeyValuePair<string, int> entry in keyValuePair1)
+//{
+//    Console.WriteLine($"Navn: {entry.Key}\nAar: {entry.Value}");
+//}
+
+
+
+// Oppgaver
+
+// Oppgave 3
+
+//Dictionary<int, string> tallTilTekst = new Dictionary<int, string>();
+
+//tallTilTekst.Add(1, "en");
+//tallTilTekst.Add(2, "to");
+//tallTilTekst.Add(3, "tre");
+//tallTilTekst.Add(4, "fire");
+//tallTilTekst.Add(5, "fem");
+//tallTilTekst.Add(6, "seks");
+//tallTilTekst.Add(7, "sju");
+//tallTilTekst.Add(8, "aatte");
+//tallTilTekst.Add(9, "ni");
+//tallTilTekst.Add(10, "ti");
+
+//foreach(KeyValuePair<int, string> entry in tallTilTekst)
+//{
+//    Console.WriteLine($"{entry.Key} | {entry.Value}");
+//}
+
+//Console.WriteLine("Skriv et tall mellom 0 og 11");
+//int userNum = int.Parse(Console.ReadLine());
+
+//Console.WriteLine($"{userNum} --> {tallTilTekst[userNum]}");
+
+
+
+// Oppgave 4
+
+//Dictionary<char, char> stringEncryptionDict = new Dictionary<char, char>();
+//stringEncryptionDict.Add('a', 'c');
+//stringEncryptionDict.Add('b', 'd');
+//stringEncryptionDict.Add('c', 'e');
+//stringEncryptionDict.Add('d', 'f');
+//stringEncryptionDict.Add('e', 'g');
+//stringEncryptionDict.Add('f', 'h');
+//stringEncryptionDict.Add('g', 'i');
+//stringEncryptionDict.Add('h', 'j');
+//stringEncryptionDict.Add('i', 'k');
+//stringEncryptionDict.Add('j', 'l');
+//stringEncryptionDict.Add('k', 'm');
+//stringEncryptionDict.Add('l', 'n');
+//stringEncryptionDict.Add('m', 'o');
+//stringEncryptionDict.Add('n', 'p');
+//stringEncryptionDict.Add('o', 'q');
+//stringEncryptionDict.Add('p', 'r');
+//stringEncryptionDict.Add('q', 's');
+//stringEncryptionDict.Add('r', 't');
+//stringEncryptionDict.Add('s', 'u');
+//stringEncryptionDict.Add('t', 'v');
+//stringEncryptionDict.Add('u', 'w');
+//stringEncryptionDict.Add('v', 'x');
+//stringEncryptionDict.Add('w', 'y');
+//stringEncryptionDict.Add('x', 'z');
+//stringEncryptionDict.Add('y', 'a');
+//stringEncryptionDict.Add('z', 'b');
+
+//string rawStr = "password";
+
+
+//string encrypter(string str)
+//{
+//    string encryptedStr = "";
+
+//    foreach (char character in str)
+//    {
+//        encryptedStr += stringEncryptionDict[character];
+//    }
+
+//    return encryptedStr;
+//}
+
+//Console.WriteLine(rawStr);
+//Console.WriteLine(encrypter(rawStr));
+
+
+
+// Oppgave 5
+
