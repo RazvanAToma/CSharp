@@ -4,28 +4,22 @@ using System;
 using System.Diagnostics;
 
 
-Stopwatch sw = new Stopwatch();
+DateTime start = DateTime.Now;
 
+double sum = 0;
 
-sw.Start();
-
-int sum = 0;
-
-int reps = 1000;
-
-for (int a = 0; a < reps; a += 1)
+for (int i = 0; i < 1000; i += 1)
 {
-    for (int b = 0; b < reps; b += 1)
+    for (int j = 0; j < 1000; j += 1)
     {
-        for (int c = 0; c < reps; c += 1)
+        for (int k = 0; k < 1000; k += 1)
         {
-            sum += 1;
+            sum += 1.5;
         }
     }
 }
-
-sw.Stop();
-
+   
+DateTime end = DateTime.Now;
+TimeSpan s = end - start;
 Console.WriteLine(sum);
-
-Console.WriteLine(sw.Elapsed);
+Console.WriteLine(s.TotalMilliseconds + " ms");

@@ -1,0 +1,15 @@
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\bin\Release\net8.0\SortingAlg.exe
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\bin\Release\net8.0\SortingAlg.deps.json
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\bin\Release\net8.0\SortingAlg.runtimeconfig.json
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\bin\Release\net8.0\SortingAlg.dll
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\bin\Release\net8.0\SortingAlg.pdb
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\obj\Release\net8.0\SortingAlg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\obj\Release\net8.0\SortingAlg.AssemblyInfoInputs.cache
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\obj\Release\net8.0\SortingAlg.AssemblyInfo.cs
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\obj\Release\net8.0\SortingAlg.csproj.CoreCompileInputs.cache
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\obj\Release\net8.0\SortingAlg.sourcelink.json
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\obj\Release\net8.0\SortingAlg.dll
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\obj\Release\net8.0\refint\SortingAlg.dll
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\obj\Release\net8.0\SortingAlg.pdb
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\obj\Release\net8.0\SortingAlg.genruntimeconfig.cache
+C:\Users\razva\Source\Repos\RazvanAToma\CSharp\SortingAlg\obj\Release\net8.0\ref\SortingAlg.dll
