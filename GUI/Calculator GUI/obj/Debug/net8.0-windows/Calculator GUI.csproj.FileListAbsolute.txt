@@ -1,0 +1,17 @@
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\bin\Debug\net8.0-windows\Calculator GUI.exe
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\bin\Debug\net8.0-windows\Calculator GUI.deps.json
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\bin\Debug\net8.0-windows\Calculator GUI.runtimeconfig.json
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\bin\Debug\net8.0-windows\Calculator GUI.dll
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\bin\Debug\net8.0-windows\Calculator GUI.pdb
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\Calculator_GUI.Form1.resources
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\Calculator GUI.csproj.GenerateResource.cache
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\Calculator GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\Calculator GUI.AssemblyInfoInputs.cache
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\Calculator GUI.AssemblyInfo.cs
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\Calculator GUI.csproj.CoreCompileInputs.cache
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\Calculator GUI.sourcelink.json
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\Calculator GUI.dll
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\refint\Calculator GUI.dll
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\Calculator GUI.pdb
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\Calculator GUI.genruntimeconfig.cache
+C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\obj\Debug\net8.0-windows\ref\Calculator GUI.dll

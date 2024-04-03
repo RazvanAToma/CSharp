@@ -957,3 +957,6 @@ static bool threeValuesEqual(int num1, int num2, int num3)
 
 // Oppgave 5
 
+
+
+// Oppgave 
