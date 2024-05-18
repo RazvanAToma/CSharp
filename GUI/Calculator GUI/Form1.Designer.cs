@@ -46,6 +46,8 @@
             buttonPeriod = new Button();
             buttonZero = new Button();
             buttonBackspace = new Button();
+            label1 = new Label();
+            historyListBox = new ListBox();
             SuspendLayout();
             // 
             // display
@@ -226,11 +228,31 @@
             buttonBackspace.UseVisualStyleBackColor = true;
             buttonBackspace.Click += buttonBackspace_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = SystemColors.Control;
+            label1.Location = new Point(490, 250);
+            label1.Name = "label1";
+            label1.Size = new Size(56, 20);
+            label1.TabIndex = 22;
+            label1.Text = "History";
+            // 
+            // historyListBox
+            // 
+            historyListBox.FormattingEnabled = true;
+            historyListBox.Location = new Point(490, 278);
+            historyListBox.Name = "historyListBox";
+            historyListBox.Size = new Size(162, 104);
+            historyListBox.TabIndex = 23;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(historyListBox);
+            Controls.Add(label1);
             Controls.Add(buttonBackspace);
             Controls.Add(buttonPlus);
             Controls.Add(buttonEquals);
@@ -275,5 +297,7 @@
         private Button buttonPeriod;
         private Button buttonZero;
         private Button buttonBackspace;
+        private Label label1;
+        private ListBox historyListBox;
     }
 }

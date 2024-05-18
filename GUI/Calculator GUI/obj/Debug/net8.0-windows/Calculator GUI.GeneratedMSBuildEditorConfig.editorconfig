@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Calculator_GUI
-build_property.ProjectDir = C:\Users\razva\Source\Repos\RazvanAToma\CSharp\GUI\Calculator GUI\
+build_property.ProjectDir = C:\Users\razva\source\repos\RazvanAToma\CSharp\GUI\Calculator GUI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
