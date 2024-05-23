@@ -4,6 +4,12 @@ namespace Tic_Tac_Toe
     {
 
         public int turn = 0;
+        public bool win = false;
+        private Button[,] board;
+
+        public int rows = 3;
+        public int cols = 3;
+
 
         public Form1()
         {
@@ -12,16 +18,57 @@ namespace Tic_Tac_Toe
 
         void place(Button buttonName)
         {
-            if (turn % 2 == 0)
+            if (turn != 8 && !win)
             {
-                buttonName.Text = "X";
-                turn += 1;
+                if (turn % 2 == 0)
+                {
+                    buttonName.Text = "X";
+                    turn += 1;
+                }
+                else
+                {
+                    buttonName.Text = "O";
+                    turn += 1;
+                }
             }
-            else
+
+            checkForWin();
+        }
+
+
+        private void create2DArray()
+        {
+            board = new Button[,] 
             {
-                buttonName.Text = "O";
-                turn += 1;
+                {topLeft, topMiddle, topRight},
+                {middleLeft, middleMiddle, middleRight},
+                {bottomLeft, bottomMiddle, bottomRight},
+            };
+        }
+        
+
+        void checkForWin()
+        {
+            for (int i  = 0; i < rows; i += 1)
+            {
+                if (CheckButton(board[i, 0], board[i, 1], board[i, 2]) ||
+                    CheckButton(board[0, i], board[1, i], board[2, i]))
+                {
+                    win = true;
+                    return;
+                }
             }
+        }
+
+        bool CheckButton(Button left, Button middle, Button right)
+        {
+            if (left.Text == middle.Text && left.Text == right.Text)
+            {
+                left.ForeColor = middle.ForeColor = right.ForeColor = Color.Red;
+                return true;
+            }
+
+            return false;
         }
 
         private void topLeft_Click(object sender, EventArgs e)
